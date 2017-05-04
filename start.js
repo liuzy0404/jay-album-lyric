@@ -1,5 +1,5 @@
-require("babel-polyfill")
+//require("babel-polyfill")
 require("babel-register")({
-  presets: ["es2015", "es2017"]
+  presets: ["es2015"]
 })
 require("./main")
