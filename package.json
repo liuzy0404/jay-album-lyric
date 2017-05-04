@@ -1,0 +1,24 @@
+{
+  "name": "jay-album-lyric",
+  "version": "1.0.0",
+  "description": "a simple crawler for jay's album lyric",
+  "main": "start.js",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "big-integer": "^1.6.21"
+  },
+  "scripts": {
+    "start": "node start"
+  },
+  "keywords": [
+    "jay",
+    "album",
+    "lyric",
+    "netease music"
+  ],
+  "author": "liuzy <mostic1122@gmail.com>",
+  "license": "MIT"
+}
