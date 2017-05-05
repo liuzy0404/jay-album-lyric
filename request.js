@@ -34,7 +34,7 @@ const getLyricById = function (songId, songName, albumName) {
       lyric = lyric.replace(/\[.*\]/g, '')
       fs.writeFile(albumName + '/' + songName + '.txt', lyric, (err) => {
         if (err) console.log(`err: ${err}`)
-        console.log(`${songName} \u{2705}`)
+        console.log(`${songName} done! \u{2705}`)
       })
     });
   })
