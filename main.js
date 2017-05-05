@@ -1,3 +1,8 @@
+/*
+ * liuzy <mostic1122@gmail.com>
+ * MIT Licensed
+ */
+
 import fs from 'fs'
 import readline from 'readline'
 import { albumApi } from './albumApi'

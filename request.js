@@ -1,3 +1,8 @@
+/*
+ * liuzy <mostic1122@gmail.com>
+ * MIT Licensed
+ */
+
 import http from 'http'
 import fs from 'fs'
 import crypto from './Crypto'
