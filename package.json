@@ -2,7 +2,7 @@
   "name": "jay-album-lyric",
   "version": "1.0.0",
   "description": "a simple crawler for jay's album lyric",
-  "main": "start.js",
+  "main": "main.js",
   "dependencies": {
     "babel-core": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
