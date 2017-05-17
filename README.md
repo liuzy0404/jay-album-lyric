@@ -2,7 +2,8 @@
 
 ## a simple crawler for jayChou's album lyric
 
-This is a simple crawler for jayChou's album lyric. You can choose a favourite album to get its lyric, and all songs' lyric will be saved to current directory named by the album.
+This is a simple crawler for jayChou's album lyric. You can choose a favourite album to get its lyric, then all of the album lyrics will be saved to current directory named by the album.
+Here is a [go edition](https://github.com/liuzy0404/jay-album-lyric-go).
 
 ### Usage
 1. run `npm install` to install dependencies.
@@ -12,6 +13,7 @@ This is a simple crawler for jayChou's album lyric. You can choose a favourite a
 ## 一个简易的jay专辑歌词网易云音乐爬虫
 
 这是一个基于网易云音乐api的歌词爬虫。Jay的14张专辑中，你可以下载任意你喜欢的专辑歌词，专辑曲目歌词会保存在以专辑名命名的目录下。
+这里有一个[go版本](https://github.com/liuzy0404/jay-album-lyric-go)。
 
 ### 用法
 1. `npm install` 安装项目依赖
