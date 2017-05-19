@@ -43,7 +43,7 @@ const getLyricById = function (songId, songName, albumName) {
 }
 
 const getSongListByAlbumId = (albumId, albumName, rl) => {
-  let api = "http://music.163.com/album?id=" + albumId; // jay album
+  let api = "http://music.163.com/album?id=" + albumId;
   http.get(api, (res) => {
     res.setEncoding('utf8')
     let lyric = ""
