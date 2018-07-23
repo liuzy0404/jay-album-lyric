@@ -49,7 +49,7 @@ const getSongListByAlbumId = (albumId, albumName, rl) => {
     let lyric = ""
     res.on('data', (chunk) => lyric += chunk)
     res.on('end', () => {
-      let reg = /<textarea\s+style="display:none;">(.*)<\/textarea>/, matched, songList;
+      let reg = /<textarea\s+id="song-list-pre-data"\s+style="display:none;">(.*)<\/textarea>/, matched, songList;
       matched = lyric.match(reg)
       if (matched && matched.length > 0) songList = matched[1]
       songList = JSON.parse(songList)
